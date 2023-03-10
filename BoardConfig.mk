@@ -22,6 +22,9 @@ BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 
+#Apex
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+
 # Inherit from proprietary files
 include vendor/xiaomi/surya/BoardConfigVendor.mk
 
